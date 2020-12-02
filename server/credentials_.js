@@ -25,7 +25,7 @@ var credentials ={
 		client_secret: process.env.FORGE_CLIENT_SECRET || '<vNejcgRPiP863rG6>',
 		grant_type: 'client_credentials',
 		scope: 'viewables:read', // Setup the needed scopes for authorizing your Token
-		callbackUrl: process.env.CALLBACK_URL || '<http://localhost:3000/api/forge/oauth/callback>'
+		callbackUrl: process.env.CALLBACK_URL || '<https://arkasis-planner.herokuapp.com/api/forge/oauth/callback>'
 	},replace
 	
 	// If you which to use the Autodesk View & Data API on the staging server, change this url
